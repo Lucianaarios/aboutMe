@@ -1,0 +1,26 @@
+.certifications {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(0deg,  #111010, #4b4848);
+    padding-bottom: 100px;
+}
+
+.certificationsTitle {
+    font-size: 2em;
+    font-weight: 400;
+    color: #f1f1f1;
+}
+
+.henryImage {
+    width: 315px;
+    height: 250px;
+    padding-bottom: 80px;
+}
+
+@media (min-width: 800px) {
+    .henryImage {
+        width: 630px;
+        height: 450px;
+    }
+}

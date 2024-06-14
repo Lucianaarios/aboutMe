@@ -1,0 +1,75 @@
+.contact {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background: linear-gradient(180deg, #111010, #4b4848);
+    align-items: center;
+}
+
+.contact h2 {
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+}
+
+.input {
+    border: 1px solid  #4b4848;
+    width: 90%;
+    height: 25px;
+    background: none;
+    margin-top: 15px;
+    color: #f1f1f1;
+}
+
+.form textarea {
+    border: 1px solid #7b7777;
+    color: #f1f1f1;
+    resize: none;
+    width: 90%;
+    margin-top: 10px;
+    background: none;
+}
+
+.form button {
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid  #292626;
+    margin-top: 10px;
+    color: #f1f1f1;
+}
+
+.form label {
+    color: #f1f1f1;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.contactInfo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los ítems */
+    flex-wrap: wrap; /* Para que los ítems se ajusten en pantallas pequeñas */
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #f1f1f1;
+}
+
+.contactItem svg {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
