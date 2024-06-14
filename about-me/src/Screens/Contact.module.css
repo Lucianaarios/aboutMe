@@ -58,8 +58,8 @@
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacio entre los ítems */
-    flex-wrap: wrap; /* Para que los ítems se ajusten en pantallas pequeñas */
+    gap: 20px;
+    flex-wrap: wrap; 
 }
 
 .contactItem {
@@ -73,3 +73,8 @@
     margin-right: 10px;
     font-size: 1.5em;
 }
+
+.thankYouMessage {
+    color: white;
+    font-weight: bold;
+  }
